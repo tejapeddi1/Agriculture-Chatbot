@@ -1,0 +1,158 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "harvest",
+      "patterns": [
+        "When should i harvest",
+        "When to cut the crop",
+        "best time to cut crop",
+        "After how many days i should harvest"
+      ],
+      "responses": [
+        "specify with crop name"
+      ]
+    },
+    {
+      "tag": "maize weed",
+      "patterns": [
+          "which method is used to weed maize",
+          "How to weed maize"
+      ],
+      "responses": [
+          "Machinery weeders are available",
+          "Weeders powered by machinery are available"
+      ]
+  },
+  {
+      "tag": "beans weevils",
+      "patterns": [
+          "How to control bean weevils?",
+          "What methods are used to manage bean weevils",
+          "How to avoid weevils in beans"
+      ],
+      "responses": [
+          "Use resistant verities and increase on water availability for crop vigor",
+          "Increase crop vigor by using resistant varieties and increasing water availability"
+      ]
+  },
+  {
+      "tag": "maize drying",
+      "patterns": [
+          "Which method used for drying maize",
+          "How to dry maize?"
+      ],
+      "responses": [
+          "Use solar drying, tarpaulins or cemented floor free from dust",
+          "You can use solar drying. Using tarpaulins or a dust-free concrete floor are also some good options."
+      ]
+  },
+  {
+      "tag": "cassava drying",
+      "patterns": [
+          "Which method used for drying cassava",
+          "How to dry cassava?"
+      ],
+      "responses": [
+          "Use Solar driers"
+      ]
+  },
+  {
+      "tag": "beans harvest",
+      "patterns": [
+          "When should i harvest beans",
+          "When to cut beans",
+          "best time to cut beans",
+          "After how many days i should harvest beans"
+      ],
+      "responses": [
+          "When the beans pods are yellowish green or dry brown"
+      ]
+  },
+  {
+      "tag": "soil erosion",
+      "patterns": [
+          "Which method is good to prevent soil erosion",
+          "How can I prevent soil erosion",
+          "How to control soil erosion",
+          "How to stop soil erosion"
+      ],
+      "responses": [
+          "Farmers can terrace their gardens or mulch their gardens to stop erosion"
+      ]
+  },
+  {
+      "tag": "pest",
+      "patterns": [
+          "How can I control pest",
+          "How to control pests",
+          "How to stop pests"
+      ],
+      "responses": [
+          "Spray some pesticides and if possible use resistant varieties"
+      ]
+  },
+  {
+      "tag": "pig weeds",
+      "patterns": [
+          "how can I control pig weeds",
+          "How to control pig weed",
+          "How to stop pig weeds"
+      ],
+      "responses": [
+          "Weed when they are young and you can also spray them"
+      ]
+  },
+  {
+      "tag": "maize fertilizer",
+      "patterns": [
+          "when should I apply the fertilizer to maize",
+          "Best time to apply fertilizer in maize",
+          "When to use fertilizer in maize crop"
+      ],
+      "responses": [
+          "Apply around planting time in the soil and on the foliage at vegetative stage before flowering"
+      ]
+  },
+  {
+      "tag": "beans weed",
+      "patterns": [
+          "When should I weed the beans?",
+          "best time to weed beans",
+          "When should I start weeding in beans"
+      ],
+      "responses": [
+          "It should be three weeks after planting"
+      ]
+  }
+  ]
+}
+ 

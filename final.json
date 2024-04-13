@@ -1,0 +1,413 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "harvest",
+      "patterns": [
+        "When should i harvest",
+        "When to cut the crop",
+        "best time to cut crop",
+        "After how many days i should harvest"
+      ],
+      "responses": [
+        "specify with crop name"
+      ]
+    },
+    {
+        "tag": "cassava harvest time",
+        "patterns": [
+            "For how long cassava takes to harvest?",
+            "How much time does it take to harvest cassava",
+            "when to harvest cassava",
+            "what is harvesting time of cassava",
+            "How many months cassava take to be harvested"
+        ],
+        "responses": [
+            "9-12 months",
+            "For majority of varieties between 9 to 12 months"
+        ]
+    },
+    {
+        "tag": "maize harvest time",
+        "patterns": [
+            "How long maize takes to harvest?",
+            "How much time does it take to harvest maize",
+            "what is harvesting time of maize",
+            "How many months maize take to be harvested",
+            "when to harvest maize"
+        ],
+        "responses": [
+            "About 120 days"
+        ]
+    },
+    {
+        "tag": "beans harvest time",
+        "patterns": [
+            "How many months beans take to be harvested",
+            "How long beans takes to harvest?",
+            "How much time does it take to harvest beans",
+            "what is harvesting time of beans",
+            "when to harvest beans"
+        ],
+        "responses": [
+            "Atmost 3 months depending on variety, when the beans pods are yellowish green or dry brown",
+            "3 months maximum, when the beans pods are yellowish green or dry brown"
+        ]
+    },
+    
+  {
+      "tag": "cassava harvest",
+      "patterns": [
+          "How can I harvest cassava",
+          "How should i harvest cassava",
+          "How to harvest cassava"
+      ],
+      "responses": [
+          "You can Uproot using a hoe"
+      ]
+  },
+  {
+      "tag": "beans harvest",
+      "patterns": [
+        "How can I harvest beans",
+        "How should i harvest beans",
+        "How to harvest beans"
+      ],
+      "responses": [
+          "Pull them out of ground with hands, machinery not required"
+      ]
+  },
+  {
+      "tag": "maize harvest",
+      "patterns": [
+        "How can I harvest maize",
+        "How should i harvest maize",
+        "How to harvest maize"
+      ],
+      "responses": [
+          "Mechanized harvesting of maize is done with corn-pickers, corn-shellers or combine-harvesters"
+      ]
+  },
+  {
+    "tag": "maize weed",
+    "patterns": [
+        "which method is used to weed maize",
+        "How to weed maize",
+        "How to control weed in maize"
+    ],
+    "responses": [
+        "Machinery weeders are available",
+        "Weeders powered by machinery are available"
+    ]
+},
+{
+    "tag": "beans weevils",
+    "patterns": [
+        "How to control bean weevils?",
+        "What methods are used to manage bean weevils",
+        "How to avoid weevils in beans"
+    ],
+    "responses": [
+        "Use resistant verities and increase on water availability for crop vigor",
+        "Increase crop vigor by using resistant varieties and increasing water availability"
+    ]
+},
+{
+    "tag": "maize drying",
+    "patterns": [
+        "Which method used for drying maize",
+        "How to dry maize?",
+        "How should I dry maize"
+    ],
+    "responses": [
+        "Use solar drying, tarpaulins or cemented floor free from dust",
+        "You can use solar drying. Using tarpaulins or a dust-free concrete floor are also some good options."
+    ]
+},
+{
+    "tag": "cassava drying",
+    "patterns": [
+        "Which method used for drying cassava",
+        "How to dry cassava?",
+        "How should I dry cassava"
+    ],
+    "responses": [
+        "Use Solar driers"
+    ]
+},
+  {
+      "tag": "beans fertilizer",
+      "patterns": [
+          "How can I apply fertilizer in my beans farm?",
+          "How should I apply fertilizer to beans",
+          "How to apply fertilizer to beans"
+      ],
+      "responses": [
+          "Broadcast or apply near the plant"
+      ]
+  },
+  {
+      "tag": "cassava fertilizer",
+      "patterns": [
+          "How can I apply fertilizer in cassava farm?",
+          "How should I apply fertilizer to cassava",
+          "How to apply fertilizer to cassava"
+      ],
+      "responses": [
+          "Apply just when planting to improve germination and vigor"
+      ]
+  },
+  {
+      "tag": "maize fertilizer",
+      "patterns": [
+          "How can I apply fertilizer in my maize farm?",
+          "How should I apply fertilizer to maize",
+          "How to apply fertilizer to maize"
+      ],
+      "responses": [
+          "Broad cast or apply around individual plant"
+      ]
+  },
+
+  {
+      "tag": "soil erosion",
+      "patterns": [
+          "Which method is good to prevent soil erosion",
+          "How can I prevent soil erosion",
+          "How to control soil erosion",
+          "How to stop soil erosion"
+      ],
+      "responses": [
+          "Farmers can terrace their gardens or mulch their gardens to stop erosion"
+      ]
+  },
+  {
+      "tag": "pest",
+      "patterns": [
+          "How can I control pest",
+          "How to control pests",
+          "How to stop pests"
+      ],
+      "responses": [
+          "Spray some pesticides and if possible use resistant varieties"
+      ]
+  },
+  {
+      "tag": "pig weeds",
+      "patterns": [
+          "how can I control pig weeds",
+          "How to control pig weed",
+          "How to stop pig weeds"
+      ],
+      "responses": [
+          "Weed when they are young and you can also spray them"
+      ]
+  },
+  {
+      "tag": "beans weed",
+      "patterns": [
+          "When should I weed the beans?",
+          "best time to weed beans",
+          "When should I start weeding in beans"
+      ],
+      "responses": [
+          "It should be three weeks after planting"
+      ]
+  },
+  {
+    "tag": "cassava diseases",
+    "patterns": [
+        "What are the common cassava diseases",
+        "What are the types of diseases in cassava"
+    ],
+    "responses": [
+        "Viral and bacterial diseases"
+    ]
+},
+{
+    "tag": "beans diseases",
+    "patterns": [
+        "What are the common beans diseases",
+        "What are the types of diseases in beans"
+    ],
+    "responses": [
+        "Anthracnose , angular leaf spot , rust and common bacterial blight"
+    ]
+},
+{
+    "tag": "maize diseases",
+    "patterns": [
+        "What are the common maize diseases",
+        "What are the types of diseases in maize"
+    ],
+    "responses": [
+        "Viral and bacterial diseases"
+    ]
+},
+{
+    "tag": "control diseases",
+    "patterns": [
+        "How to control diseases",
+        "How to prevent diseases"
+    ],
+    "responses": [
+        "Speficy crop name and disease"
+    ]
+},
+{
+    "tag": "cassava diseases spread",
+    "patterns": [
+        "How does cassava diseases spread?",
+        "how diseases spread in cassava"
+    ],
+    "responses": [
+        "Via poor planting material or by whiteflies"
+    ]
+},     
+{
+    "tag": "beans disease spread",
+    "patterns": [
+        "How does beans disease spread",
+        "how diseases spread in beans"
+    ],
+    "responses": [
+        "Through vectors",
+        "Vectors like insects spread diseases",
+        "Insects and aphids in the garden"
+    ]
+},
+{
+    "tag": "maize disease spread",
+    "patterns": [
+        "How does maize disease spread",
+        "how diseases spread in maize"
+    ],
+    "responses": [
+        "Through vectors",
+        "Vectors like insects spread diseases",
+        "Insects and aphids in the garden"
+    ]
+},
+{
+    "tag": "cassava mealy bugs",
+    "patterns": [
+        "How can I control cassava mealy bugs",
+        "How to stop cassava mealy bugs",
+        "How to prevent cassava mealy bugs"
+    ],
+    "responses": [
+         "Reduce on fertilizer levels and prune off infected parts."
+    ]
+},
+{
+    "tag": "cassava mosaic disease",
+    "patterns": [
+        "How can I control cassava mosaic disease.",
+        "How to prevent cassava mosaic disease.",
+        "How to stop cassava mosaic disease"
+       
+    ],
+    "responses": [
+       
+        "Cassava mosaic disease is controlled by the use clean planting material of resistant varieties"
+       
+    ]
+},
+{
+    "tag": "cassava yellowish leaf",
+    "patterns": [
+        "How can I prevent yellowish of cassava leaf.",
+       "How can I control yellowish of cassava leaf.",
+       "How to stop cassava leaf yellowish"
+    ],
+    "responses": [
+        "Yellowing is mainly caused by viral diseases but lack of Nitrogen in the soil can also cuase yellowing"
+    ]
+},
+
+{
+    "tag": "cassava black spots",
+    "patterns": [
+        "what are the black spots on cassava",
+        "why there are black spots on cassava",
+        "what causes black spots in cassava"
+    ],
+    "responses": [
+        "Brown streak disease"
+    ]
+},
+{
+    "tag": "beans black spots",
+    "patterns": [
+        "what are the black spots on beans",
+        "why there are black spots on beans",
+        "what causes black spots in beans"
+    ],
+    "responses": [
+       
+        "Anthracnose disease"
+      
+    ]
+},
+{
+    "tag": "maize black spots",
+    "patterns": [
+        "what are the black spots on maize",
+        "why there are black spots on maize",
+        "what causes black spots in maize"
+    ],
+    "responses": [
+        "Fungal diseases"
+    ]
+},
+{
+    "tag": "control black spots",
+    "patterns": [
+        "how can I control black spots"  
+    ],
+    "responses": [
+    
+        "Use resistant varieties and good crop practices"
+    ]
+},
+{
+    "tag": "maize stem cracks",
+    "patterns": [
+        "What causes stem cracks in maize",
+        "why there are stem cracks in maize"
+    ],
+    "responses": [
+        "Fungal diseases like Turcicum blight can cause stem cracks"
+    ]
+}
+  ]
+}
+ 
